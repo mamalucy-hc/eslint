@@ -1,0 +1,33 @@
+{
+  "name": "@mamalucy/eslint-base",
+  "version": "1.0.0",
+  "description": "Mama Lucy's base JS ESLint config, following our styleguide",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mamalucy-hc/eslint/"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Sebastian Kerckhof",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^7.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  },
+  "engines": {
+    "node": ">= 12"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.1.0"
+  }
+}
